@@ -1,0 +1,304 @@
+
+var inventory = [
+	{
+		"id": 0,
+		"name": "Norma",
+		"quantity": 1,
+		"stars": 5,
+		"faction": ""
+	},
+	{
+		"id": 1,
+		"name": "Dragon Slayer",
+		"quantity": 1,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 2,
+		"name": "Queen",
+		"quantity": 1,
+		"stars": 5,
+		"faction": ""
+	},
+	{
+		"id": 3,
+		"name": "Skerei",
+		"quantity": 1,
+		"stars": 5,
+		"faction": ""
+	},
+	{
+		"id": 4,
+		"name": "OD-01",
+		"quantity": 2,
+		"stars": 5,
+		"faction": ""
+	},
+	{
+		"id": 5,
+		"name": "Mirage",
+		"quantity": 1,
+		"stars": 5,
+		"faction": ""
+	},
+	{
+		"id": 6,
+		"name": "Honor Guard",
+		"quantity": 1,
+		"stars": 5,
+		"faction": ""
+	},
+	{
+		"id": 7,
+		"name": "Ormus",
+		"quantity": 1,
+		"stars": 5,
+		"faction": ""
+	},
+	{
+		"id": 8,
+		"name": "Kamath",
+		"quantity": 1,
+		"stars": 5,
+		"faction": ""
+	},
+	{
+		"id": 9,
+		"name": "Eddga",
+		"quantity": 1,
+		"stars": 5,
+		"faction": ""
+	},
+	{
+		"id": 10,
+		"name": "The Grey-eyed",
+		"quantity": 1,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 11,
+		"name": "Wind Walker",
+		"quantity": 3,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 12,
+		"name": "Storm Hudde",
+		"quantity": 1,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 13,
+		"name": "Fegan",
+		"quantity": 1,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 14,
+		"name": "Bonecarver",
+		"quantity": 2,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 15,
+		"name": "Logan",
+		"quantity": 1,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 16,
+		"name": "Thale",
+		"quantity": 1,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 17,
+		"name": "Destroyer",
+		"quantity": 1,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 18,
+		"name": "DarkSpirit",
+		"quantity": 2,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 19,
+		"name": "Aleria",
+		"quantity": 2,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 20,
+		"name": "Glen",
+		"quantity": 1,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 21,
+		"name": "Zekkis",
+		"quantity": 1,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 22,
+		"name": "Headstriker",
+		"quantity": 3,
+		"stars": 4,
+		"faction": ""
+	},
+	{
+		"id": 23,
+		"name": "Ice Troll",
+		"quantity": 2,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 24,
+		"name": "Sybil",
+		"quantity": 3,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 25,
+		"name": "Holy Kid",
+		"quantity": 2,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 26,
+		"name": "Ghost of Aspen",
+		"quantity": 2,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 27,
+		"name": "Forests Captain",
+		"quantity": 4,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 28,
+		"name": "Blue Shaman",
+		"quantity": 3,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 29,
+		"name": "Undomiel",
+		"quantity": 3,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 30,
+		"name": "Succube",
+		"quantity": 3,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 31,
+		"name": "Wild Beast",
+		"quantity": 1,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 32,
+		"name": "Abyss Guard",
+		"quantity": 3,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 33,
+		"name": "MK-03",
+		"quantity": 1,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 34,
+		"name": "Fire Fist",
+		"quantity": 1,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 35,
+		"name": "Tara's servant",
+		"quantity": 3,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 36,
+		"name": "Carver",
+		"quantity": 2,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 37,
+		"name": "Reggie",
+		"quantity": 4,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 38,
+		"name": "Poison Tongue",
+		"quantity": 2,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 39,
+		"name": "Chain Hammer",
+		"quantity": 2,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 40,
+		"name": "Mirko",
+		"quantity": 1,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 41,
+		"name": "Flaming Lips",
+		"quantity": 1,
+		"stars": 3,
+		"faction": ""
+	},
+	{
+		"id": 42,
+		"name": "Dark Priest",
+		"quantity": 1,
+		"stars": 3,
+		"faction": ""
+	}
+];
